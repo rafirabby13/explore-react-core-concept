@@ -3,6 +3,7 @@
 import "./App.css";
 import Counter from "./Counter.jsx";
 import Friends from "./Friends.jsx";
+import Post from "./Post.jsx";
 import Team from "./Team.jsx";
 import Users from "./Users.jsx";
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <h3>React Core concept 2</h3>
+      <Post></Post>
       <Friends></Friends>
       <Users></Users>
 
